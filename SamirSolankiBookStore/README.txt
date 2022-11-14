@@ -16,4 +16,7 @@ Razor runtime... will this actually work  Let us test this application
  Install in NuGet package which is given incorrect in documents
 
  @model SamirSolankiBookStore.Models.ViewModels.ErrorViewModel;
-Copy this line in Error.cshtml From View-Shared-Error.cshtml 
+Copy this line in Error.cshtml From View-Shared-Error.cshtml
+
+
+Addthis line using SamirSolankiBookStore.DataAccess.Data; in startup.cs
