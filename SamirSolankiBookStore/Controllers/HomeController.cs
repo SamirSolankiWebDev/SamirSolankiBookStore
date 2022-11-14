@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using SamirSolankiBookStore.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SamirSolankiBookStore.Models;
 using System;
