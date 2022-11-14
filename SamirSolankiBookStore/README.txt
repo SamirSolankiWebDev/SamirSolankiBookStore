@@ -26,3 +26,6 @@ Addthis line using SamirSolankiBookStore.DataAccess.Data; in startup.cs
 ======================= PART 2 ===============
 
 Changed the databse local address as per given 
+
+
+Added the migration file :- 20221114222428_AddDefaultIdentityMigration.cs
