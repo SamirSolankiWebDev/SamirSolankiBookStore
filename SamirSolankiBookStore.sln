@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirSolankiBooks.DataAcces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirSolankiBooks.Models", "SamirSolankiBooks.Models\SamirSolankiBooks.Models.csproj", "{0B2066CE-808B-4B25-8C8E-B665A396853E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirSolankiBooksUtility", "SamirSolankiBooksUtility\SamirSolankiBooksUtility.csproj", "{2D4F9F9C-DBE8-493E-AEED-2391CFC96531}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirSolankiBooks.Utility", "SamirSolankiBooks.Utility\SamirSolankiBooks.Utility.csproj", "{93B0E1C5-438D-4660-ACB4-1BA2EA8FC4E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{0B2066CE-808B-4B25-8C8E-B665A396853E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B2066CE-808B-4B25-8C8E-B665A396853E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B2066CE-808B-4B25-8C8E-B665A396853E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D4F9F9C-DBE8-493E-AEED-2391CFC96531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D4F9F9C-DBE8-493E-AEED-2391CFC96531}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D4F9F9C-DBE8-493E-AEED-2391CFC96531}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D4F9F9C-DBE8-493E-AEED-2391CFC96531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B0E1C5-438D-4660-ACB4-1BA2EA8FC4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B0E1C5-438D-4660-ACB4-1BA2EA8FC4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B0E1C5-438D-4660-ACB4-1BA2EA8FC4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B0E1C5-438D-4660-ACB4-1BA2EA8FC4E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
