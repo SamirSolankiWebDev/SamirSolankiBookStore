@@ -11,3 +11,6 @@ Razor runtime... will this actually work  Let us test this application
 2320 Let us execute the application
 2330  I didnt worked because i did not commented the file From Property->launchSetting.josn
  //  "sslPort": 44307  This line of i commented so now it will run the application.
+
+ PM> Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore -version 3.1.29 
+ Install in NuGet package which is given incorrect in documents
