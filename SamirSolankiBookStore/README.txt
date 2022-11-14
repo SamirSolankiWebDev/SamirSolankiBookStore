@@ -14,3 +14,6 @@ Razor runtime... will this actually work  Let us test this application
 
  PM> Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore -version 3.1.29 
  Install in NuGet package which is given incorrect in documents
+
+ @model SamirSolankiBookStore.Models.ViewModels.ErrorViewModel;
+Copy this line in Error.cshtml From View-Shared-Error.cshtml 
