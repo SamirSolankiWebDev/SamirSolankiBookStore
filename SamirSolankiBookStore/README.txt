@@ -20,3 +20,9 @@ Copy this line in Error.cshtml From View-Shared-Error.cshtml
 
 
 Addthis line using SamirSolankiBookStore.DataAccess.Data; in startup.cs
+
+
+
+======================= PART 2 ===============
+
+Changed the databse local address as per given 
