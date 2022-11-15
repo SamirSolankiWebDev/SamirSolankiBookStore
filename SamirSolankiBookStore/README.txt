@@ -1,7 +1,7 @@
 ﻿Program name:- WEB452_SamirSolankiBookStore
 Program purpose:- To review the components of an ASP.NET
 Program author:- Samir Solanki
-Date Created :- 2022-13-11 2318 [ISO date format]
+Date Created :- 2022-11-13 2318 [ISO date format]
 
 2318 -Today I created a new Application in ASP>NET MVC application w/ .NET core 3.1 framework
 Authentication - Individual Account
