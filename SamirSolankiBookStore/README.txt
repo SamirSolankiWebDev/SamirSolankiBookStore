@@ -87,9 +87,25 @@ Changed the databse local address as per given
 
 0315 Created the migrations  and modify the database name and saved 
 
-Added the migration file :- 20221114222428_AddDefaultIdentityMigration.cs
+0330 Added the migration file :- 20221114222428_AddDefaultIdentityMigration.cs
 
-this is the migration file name which is been used in the application
+0331 this is the migration file name which is been used in the application
 
--Done the 
+0335 -Done the Migration and then Update the database now by 
+ - update-database  
+ this is the command used to update 
 
+ After this Steps lets us check the database 
+ Added the new table to Db - 
+ Added the new Class name "Category.cs"
+
+ - After this added the Migration 
+  by using this line 
+  add-migration AddCategoryToDB 
+  - IMPORTANT Select only SamirSolankiBooks.DataAccess in the dropdown
+
+  === Part two Repository
+  Added the new Folder name "Repository" in DataAccess project 
+  Added new folder iRepository inside this folder
+
+  Doing Changes in the file 
