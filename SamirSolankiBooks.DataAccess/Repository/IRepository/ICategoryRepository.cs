@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SamirSolankiBooks.DataAccess.Repository.IRepository
 {
-    class ICategoryRepository
+    interface ICategoryRepository
     {
     }
 }
