@@ -87,13 +87,12 @@ Changed the databse local address as per given
 
 0315 Created the migrations  and modify the database name and saved 
 
-0329 add-migration AddDefaultIdentityMigration
+0329 ===run this ====== add-migration AddDefaultIdentityMigration
 
 0330 Added the migration file :- 20221114222428_AddDefaultIdentityMigration.cs
 
 0331 this is the migration file name which is been used in the application
 
-0334 run 
 
 0335 -Done the Migration and then Update the database now by 
  - update-database  
