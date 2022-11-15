@@ -85,5 +85,11 @@ Addthis line using SamirSolankiBookStore.DataAccess.Data; in startup.cs
 
 Changed the databse local address as per given 
 
+0315 Created the migrations  and modify the database name and saved 
 
 Added the migration file :- 20221114222428_AddDefaultIdentityMigration.cs
+
+this is the migration file name which is been used in the application
+
+-Done the 
+
