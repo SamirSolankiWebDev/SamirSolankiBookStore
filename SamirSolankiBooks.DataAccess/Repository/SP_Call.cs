@@ -1,13 +1,12 @@
 ﻿using SamirSolankiBooks.DataAccess.Repository.IRepository;
-using SamirSolankiBooks.DataAccess.Data;
-using Dapper;
+using SamirSolankiBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.Data.SqlClient;
-
+using Dapper;
 
 namespace SamirSolankiBooks.DataAccess.Repository
 {

@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamirSolankiBookStore", "SamirSolankiBookStore\SamirSolankiBookStore.csproj", "{17EBED5E-2E7B-408E-A621-25E08223204B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirSolankiBooks.DataAccess", "SamirSolankiBooks.DataAccess\SamirSolankiBooks.DataAccess.csproj", "{9692EFE1-CB23-45EB-84E3-88B36140426D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamirSolankiBooks.DataAccess", "SamirSolankiBooks.DataAccess\SamirSolankiBooks.DataAccess.csproj", "{9692EFE1-CB23-45EB-84E3-88B36140426D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirSolankiBooks.Models", "SamirSolankiBooks.Models\SamirSolankiBooks.Models.csproj", "{0B2066CE-808B-4B25-8C8E-B665A396853E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamirSolankiBooks.Models", "SamirSolankiBooks.Models\SamirSolankiBooks.Models.csproj", "{0B2066CE-808B-4B25-8C8E-B665A396853E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamirSolankiBooks.Utility", "SamirSolankiBooks.Utility\SamirSolankiBooks.Utility.csproj", "{93B0E1C5-438D-4660-ACB4-1BA2EA8FC4E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamirSolankiBooks.Utility", "SamirSolankiBooks.Utility\SamirSolankiBooks.Utility.csproj", "{93B0E1C5-438D-4660-ACB4-1BA2EA8FC4E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
