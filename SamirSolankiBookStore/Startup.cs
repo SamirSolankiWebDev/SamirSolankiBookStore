@@ -12,6 +12,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SamirSolankiBooks.DataAccess.Repository;
+using SamirSolankiBooks.DataAccess.Repository.IRepository;
 
 namespace SamirSolankiBookStore
 {
@@ -32,6 +34,7 @@ namespace SamirSolankiBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
