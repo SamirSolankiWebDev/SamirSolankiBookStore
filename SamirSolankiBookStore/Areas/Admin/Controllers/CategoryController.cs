@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 
-namespace KuljinderBookStore.Areas.Admin.Controllers
+namespace SamirSolankiBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller
