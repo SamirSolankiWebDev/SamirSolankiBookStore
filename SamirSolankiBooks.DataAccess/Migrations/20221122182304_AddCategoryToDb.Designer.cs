@@ -10,7 +10,7 @@ using SamirSolankiBookStore.DataAccess.Data;
 namespace SamirSolankiBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221114230048_AddCategoryToDb")]
+    [Migration("20221122182304_AddCategoryToDb")]
     partial class AddCategoryToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

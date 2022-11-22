@@ -1,15 +1,18 @@
-﻿using SamirSolankiBooks.DataAccess.Repository.IRepository;
-using SamirSolankiBooks.DataAccess;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Text;
+using SamirSolankiBooks.DataAccess.Repository.IRepository;
+using SamirSolankiBookStore.DataAccess.Data;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using SamirSolankiBookStore.DataAccess.Data;
+using Microsoft.EntityFrameworkCore;
+
+
+
 
 namespace SamirSolankiBooks.DataAccess.Repository
 {
+    // Implements all the methods of the IRepository
     public class Repository<T> : IRepository<T> where T : class
     {
         // modify the database w/ the db context

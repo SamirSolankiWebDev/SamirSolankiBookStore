@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-
 namespace SamirSolankiBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]

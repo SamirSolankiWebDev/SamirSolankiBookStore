@@ -4,10 +4,10 @@ using System.Text;
 
 namespace SamirSolankiBooks.DataAccess.Repository.IRepository
 {
-    public interface IUnitOfWork : IDisposable
+   public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
-        ISP_Call SP_Call { get; }
+        ISP_Call SP_Call { get;      }
         void Save();
     }
 }
