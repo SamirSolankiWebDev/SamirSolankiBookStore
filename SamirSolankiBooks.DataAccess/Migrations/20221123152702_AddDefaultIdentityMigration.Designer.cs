@@ -10,7 +10,7 @@ using SamirSolankiBookStore.DataAccess.Data;
 namespace SamirSolankiBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221122181935_AddDefaultIdentityMigration")]
+    [Migration("20221123152702_AddDefaultIdentityMigration")]
     partial class AddDefaultIdentityMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
