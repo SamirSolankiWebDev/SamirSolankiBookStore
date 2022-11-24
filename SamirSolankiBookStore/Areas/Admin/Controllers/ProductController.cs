@@ -51,5 +51,26 @@ namespace SamirSolankiBookStore.Areas.Admin.Controllers
             }
             return View(productVM);
         }
+
+        // API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
+            return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Product.Get(id);
+            if(objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Product.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete successful" });
+        }
     }
 }
