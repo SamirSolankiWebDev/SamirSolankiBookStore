@@ -4,7 +4,12 @@ using System.Text;
 
 namespace SamirSolankiBooks.DataAccess.Repository.IRepository
 {
-   public void Update (Product product)
+
+    public interface  IProductRepository : IRepository<Product>
+    {
+        void Update(IProductRepository product);
+    }
+ /*  public void Update (Product product)
     {
         var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
         if(objFromDb != null)  // save changes if not null
@@ -22,5 +27,5 @@ namespace SamirSolankiBooks.DataAccess.Repository.IRepository
             objFromDb.CoverTypeId = product.CoverTypeId;   // all properties of Product object
 
         }
-    }
+    }*/
 }
