@@ -196,3 +196,9 @@ Changed the databse local address as per given
        update-database
 
   0835  20221124071403_addProductToDb.cs         ===== this is db timestamp added in my README File===
+
+   --Ceate a new migration 
+
+  ======  [add-migration addValidationToProduct] 
+
+  and update-database
