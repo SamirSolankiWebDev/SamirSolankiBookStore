@@ -89,6 +89,8 @@ Changed the databse local address as per given
 
 0329 ===run this ====== add-migration AddDefaultIdentityMigration
 
+0330  run command add-migration AddCategoryToDb and update-database
+
 0330 Added the migration file :- 20221114222428_AddDefaultIdentityMigration.cs
 
 0331 this is the migration file name which is been used in the application
