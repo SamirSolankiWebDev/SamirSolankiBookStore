@@ -114,4 +114,71 @@ Changed the databse local address as per given
   Added the new Folder name "Repository" in DataAccess project 
   Added new folder iRepository inside this folder
 
-  Doing Changes in the file 
+  Doing Changes in the file of iRepository
+
+  0415 -Add a new class SP_Call.cs in the Repository Folder
+
+  0416 Update the implementation of the ISP_Call interface 
+
+  0418 As per the Documents Add the wrapper for Unit of Work in the SP_Call.cs  file 
+
+  0418 Add a new interface (IUnitOfWork) in the IRepository folder and update the code
+
+  0419 Add the code changes in Startup.cs File
+
+
+  ============================= PART 2 2.3 Category CRUD ==========================
+
+  0419 Build and Run the application 
+
+  0420 Add the new MVC Controller empty insdide the Area/Admin 
+
+  0420 Added the file as CategoryController.cs
+
+  0421 Done Changes in IUnityOfWork from the .DataAccess in the IRepository
+
+  0421 Added the new folder in the Area/View with the same name as the Controller
+
+  0422 Add a new Index view to the folder
+
+  0422 Save and Run the folder 
+
+  0423 Change in the _Layout.cshtml  Move this Category link to the Content Management drop-down 
+
+  0425 Update the code and puch the code to GitHub
+
+  0426 Changes don ein the Index.cshtml and add the icons in the Category section 
+
+  0428 Index.cshtml add the @section call to the category.js
+
+  0435 Add the Edit and Delete buttons and Create New Category using the Upsert action.
+
+  0436 Add the new file _CreateAndBackToListButton.cshtml and ass the asp action.
+
+  0438 Done the changes in the code in the Upsert file
+
+  0439 Add the asp-action to the Index.cshtml page 
+
+  0440 Run the application and test it.....................
+
+  0442 Create new Category and modify 
+
+  0442 Changes done in the Upsert.cshtml File......
+
+  0445 Add the Save Method in the IUnitOfWork interface and save method......
+
+  0448 Remove the _db.SaveChanges methos in the CategoryRepository.cs and move the _unitOfWork.Save() 
+
+  0449 Test the application and run the application.....
+
+  0455 Add the API call for HTTPDelete in the CategoryController.cs
+
+  0458 Add the delete functionality in category.js onclick.....
+
+  0458 Add the Delete(url) function code
+
+  ================= Completed the PART 2 2.3 Category CRUD ===================
+
+  ================ Part 3 3.1 Cover Type CRUD=========
+
+  0810 
