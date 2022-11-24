@@ -211,3 +211,6 @@ Changed the databse local address as per given
                                    3.2 Product CRUD(2)
   
   === Added ProductController.cs inside Area>ADmin>Controllers Folder
+
+
+  == Added ProductVM inside Models ViewModels Folder and done changes
