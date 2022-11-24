@@ -202,3 +202,12 @@ Changed the databse local address as per given
   ======  [add-migration addValidationToProduct] 
 
   and update-database
+
+  == Added ICategoryRepository.cs in the Repository Folder
+
+   Build and run the application 
+
+     ============================= Part 3 ================================
+                                   3.2 Product CRUD(2)
+  
+  === Added ProductController.cs inside Area>ADmin>Controllers Folder
