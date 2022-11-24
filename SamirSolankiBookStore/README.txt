@@ -216,3 +216,5 @@ Changed the databse local address as per given
   == Added ProductVM inside Models ViewModels Folder and done changes
 
   == Changes done in ProductController.cs File 
+
+  == Added Delete fucntion in ProductController.cs
