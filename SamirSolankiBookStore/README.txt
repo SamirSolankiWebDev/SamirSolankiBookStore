@@ -190,3 +190,9 @@ Changed the databse local address as per given
   0820 Added the File Product.cs in the SamirSolankiBooks.Models
 
   0821 Added the Code in Product.cs File 
+
+  0825 Run the --- [add-migration addProductToDb] command in the "SamirSolankiBooks.DataAccess"
+       for an 'addProductToDb' migration and
+       update-database
+
+  0835  20221124071403_addProductToDb.cs         ===== this is db timestamp added in my README File===

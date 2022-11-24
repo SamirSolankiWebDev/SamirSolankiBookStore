@@ -24,8 +24,4 @@
     <ProjectReference Include="..\SamirSolankiBooks.Utility\SamirSolankiBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>
