@@ -181,4 +181,12 @@ Changed the databse local address as per given
 
   ================ Part 3 3.1 Cover Type CRUD=========
 
-  0810 
+  0810  Done Changes in the Index.cshtml Change the Text "Cover Type List"
+
+  0814 Change the text in Index.cshtml to "Create New Cover Type"
+
+  ============================= Part 3 ================================
+
+  0820 Added the File Product.cs in the SamirSolankiBooks.Models
+
+  0821 Added the Code in Product.cs File 
