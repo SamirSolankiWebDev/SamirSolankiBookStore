@@ -73,6 +73,7 @@ namespace SamirSolankiBookStore.Areas.Admin.Controllers
             return View(category);
         }
 
+
         [HttpDelete]
         public IActionResult Delete(int id)
         {
