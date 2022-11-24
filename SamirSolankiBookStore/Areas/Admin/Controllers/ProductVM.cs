@@ -7,5 +7,6 @@ namespace SamirSolankiBookStore.Areas.Admin.Controllers
         internal Product Product;
 
         public object CategoryList { get; internal set; }
+        public object CoverTypeList { get; internal set; }
     }
 }
