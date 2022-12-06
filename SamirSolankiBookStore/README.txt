@@ -229,3 +229,54 @@ Changed the databse local address as per given
   0125 Commented the Upsert post Method 
 
   0126 Done changes in the Category and CoverType
+
+  0128 Added the Index View and copy the code from View/Category and done changes in Different list which is 
+   - Product 
+    - List Header
+   
+   0129 In this Created a New Product and added the property 
+     - Title 
+     - ISBN
+     - Price 
+     - Author 
+     - Category and
+     Finally after creating a new product.js File
+
+   0133 In category.js  i did copy and paste and rename the file to product.js
+
+   0134 File category.js file changed to product.js
+
+   0135 Changed the File _Layout.cshtml to add a new link to Product.
+
+   0136 Finally Run the application 
+
+   0136 Created a new Database Updated and again checked 
+
+ 
+
+   
+     ============================= Part 3 ================================
+                                   3.2 Product CRUD(3)
+
+  0141 Created an Upsert.cs For Products 
+
+  0141 Done Changes like Modify in Areas>Admin>View>Product
+
+  0142 Added a eich textbox to the textarea inside Product
+
+  0142 Added a function to validate input and shown a alert 
+
+  0142 Lets Run the Application 
+
+  0142 Added a new Folder subfolder in wwwroot>images/products
+
+  0145 ProductController configure the Product Upsert Post action method
+
+
+    ====================================== ERROR 
+
+   IN THIS ERROR I got ups_CreateCoverType
+
+   Many a times i got the Foreign Key and same way it was not able to Drop the table 'dbo.AspNetUserClaims' because it doesnt not exit or you do not have permission.
+
+   ===================================== ERROR 
