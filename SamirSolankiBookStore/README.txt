@@ -212,9 +212,20 @@ Changed the databse local address as per given
   
   === Added ProductController.cs inside Area>ADmin>Controllers Folder
 
+  1253 Added IWebHostEnvironment,  AS per the documents this is used to to calling Microsoft.AspNetCore.Hosting
+
+  0109 Created a ViewModel in the Models Project to hold the Product object
+
+  0111 Select List from Category and CoverType
 
   == Added ProductVM inside Models ViewModels Folder and done changes
+
+  0125 In this ProductVC class We have Installed  Microsoft.AspNetCore.Mvc.ViewFeatures packages
 
   == Changes done in ProductController.cs File 
 
   == Added Delete fucntion in ProductController.cs
+
+  0125 Commented the Upsert post Method 
+
+  0126 Done changes in the Category and CoverType
