@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SamirSolankiBookStore.DataAccess.Data
+namespace SamirSolankiBooks.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -14,11 +14,7 @@ namespace SamirSolankiBookStore.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
-
         public DbSet<CoverType> CoverTypes { get; set; }
-
-        public DbSet<Product> Products { get; set; }  // adding products to the Db
-
+        public DbSet<Product> Products { get; set; }
     }
 }
-
