@@ -280,3 +280,13 @@ Changed the databse local address as per given
    Many a times i got the Foreign Key and same way it was not able to Drop the table 'dbo.AspNetUserClaims' because it doesnt not exit or you do not have permission.
 
    ===================================== ERROR 
+
+   2022-12-09
+
+   1230 I have Done Change in COvertType File which was giving me error to added the covertype 
+
+   1231 Changes in index file was done for display which was not dark.
+
+   1231 All the File are completed and tested the application, It is working fine added Product and Image for testing All are working as per the process.
+
+   1232 Final Code is working 
