@@ -10,8 +10,8 @@ using SamirSolankiBooks.DataAccess.Data;
 namespace SamirSolankiBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221206050439_AddCoverTypeToDb")]
-    partial class AddCoverTypeToDb
+    [Migration("20221209044326_addCoverTypeToDb")]
+    partial class addCoverTypeToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -252,7 +252,7 @@ namespace SamirSolankiBooks.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CoverTypes");
+                    b.ToTable("Covers");
                 });
 
             modelBuilder.Entity("SamirSolankiBooks.Models.Product", b =>

@@ -9,7 +9,7 @@ namespace SamirSolankiBooks.DataAccess.Repository.IRepository
     public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
-        ICoverTypeRepository CoverType { get; }
+        ICoverTypeRepository Cover { get; }
         IProductRepository Product { get; }
         ISP_Call SP_Call { get; }
 

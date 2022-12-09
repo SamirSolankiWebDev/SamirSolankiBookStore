@@ -20,10 +20,14 @@ namespace SamirSolankiBooks.DataAccess.Repository
 
         public void Update(CoverType coverType)
         {
-            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == coverType.Id);
-            if (objFromDb != null)
+            //throw new NotImplementedException();
+            //use .NET LINQ to retrieve the first or default category object
+            // then pass the id as a generic entity which matters the category ID
+            var objFromDb = _db.Covers.FirstOrDefault(s => s.Id == coverType.Id);
+            if (objFromDb != null)//Save changes if not null
             {
                 objFromDb.Name = coverType.Name;
+                // _db.SaveChanges();
             }
         }
     }

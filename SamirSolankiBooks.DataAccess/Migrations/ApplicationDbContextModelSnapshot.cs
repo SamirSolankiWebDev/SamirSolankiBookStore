@@ -250,7 +250,7 @@ namespace SamirSolankiBooks.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CoverTypes");
+                    b.ToTable("Covers");
                 });
 
             modelBuilder.Entity("SamirSolankiBooks.Models.Product", b =>

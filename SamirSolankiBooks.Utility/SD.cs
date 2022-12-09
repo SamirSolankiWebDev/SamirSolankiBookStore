@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SamirSolankiBooks.Utility
 {
-    public static class SD
+    public static class StaticDetails
     {
         public const string Proc_CoverType_Create = "usp_CreateCoverType";
         public const string Proc_CoverType_Get = "usp_GetCoverType";

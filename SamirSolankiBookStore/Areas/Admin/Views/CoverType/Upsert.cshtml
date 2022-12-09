@@ -2,19 +2,17 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Cover Type";
+    var title = "Add Cover Type";
 }
-
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         @if (Model.Id != 0)
         {
-            // edit
             title = "Edit Cover Type";
         }
         <div class="col-12 border-bottom">
-            <h2 class="text-primary">@title</h2>
+            <h2 class="text-primary">Edit a Cover Type</h2>
         </div>
         <div class="col-8 pt-4">
             <div class="form-group row">
@@ -34,14 +32,13 @@
                     }
                     else
                     {
-                        <partial name="_CreateAndBackToListButton" />
+                        <partial name="_CreateAndBackToListButton" model="Model.Id" />
                     }
                 </div>
             </div>
         </div>
     </div>
 </form>
-
-@section Scripts{
+@section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
